@@ -37,14 +37,14 @@
     "oauth": "0.9.x",
     "passport-strategy": "1.x.x",
     "uid2": "0.0.x",
-    "utils-merge": "1.x.x"
+    "utils-merge": "1.x.x",
+    "request": "2.x.x"
   },
   "devDependencies": {
     "chai": "4.x.x",
     "chai-passport-strategy": "1.x.x",
     "make-node": "0.3.x",
-    "mocha": "5.x.x",
-    "request": "2.x.0"
+    "mocha": "5.x.x"
   },
   "engines": {
     "node": ">= 0.4.0"
