@@ -36,7 +36,7 @@ and calls `cb` providing a user.
 passport.use(new OAuth2Strategy({
     authorizationURL: 'https://demo.identityserver.io/connect/authorize',
     tokenURL: 'https://demo.identityserver.io/connect/token',
-	userinfoURL: 'https://demo.identityserver.io/connect/userinfo',
+    userinfoURL: 'https://demo.identityserver.io/connect/userinfo',
     clientID: EXAMPLE_CLIENT_ID,
     clientSecret: EXAMPLE_CLIENT_SECRET,
     callbackURL: "https://www.example.net/auth/oauth2/callback"
