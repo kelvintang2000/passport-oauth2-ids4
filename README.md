@@ -27,7 +27,7 @@ list so other people can find it.
 #### Configure Composer passport environment 
 
 ```js
-export COMPOSER_PROVIDERS='{"oauth2": {"provider": "oauth2", "module": "passport-oauth2", "authorizationURL": "https://demo.identityserver.io/connect/authorize", "tokenURL": "https://demo.identityserver.io/connect/token", "clientID": "server.code", "clientSecret": "secret", "scope": "openid profile email api offline_access", "authPath": "/auth/oauth2", "callbackURL": "/auth/oauth2/callback", "successRedirect": "http://hyperledger.eastasia.cloudapp.azure.com:4200?loggedIn=true", "failureRedirect": "/" } }'
+export COMPOSER_PROVIDERS='{"oauth2": {"provider": "oauth2", "module": "passport-oauth2-ids4", "authorizationURL": "https://demo.identityserver.io/connect/authorize", "tokenURL": "https://demo.identityserver.io/connect/token", "userinfoURL": "https://demo.identityserver.io/connect/userinfo", "clientID": "server.code", "clientSecret": "secret", "scope": "openid profile email api offline_access", "authPath": "/auth/oauth2", "callbackURL": "/auth/oauth2/callback", "successRedirect": "http://hyperledger.eastasia.cloudapp.azure.com:4200?loggedIn=true", "failureRedirect": "/" } }'
 ```
 
 #### Configure Strategy
