@@ -1,5 +1,6 @@
 # passport-oauth2-ids4
 
+[![DepShield Badge](https://depshield.sonatype.org/badges/owner/repository/depshield.svg)](https://depshield.github.io)
 
 General-purpose OAuth 2.0 authentication strategy for [Passport](http://passportjs.org/).
 
